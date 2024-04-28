@@ -1,0 +1,16 @@
+.Introduction {
+  padding: 100px 5vw 80px 5vw;
+
+  background-color: black;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .text-box-for-img {
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    color: white;
+    padding: 2px 10px;
+    max-width: 600px;
+  }
+}
