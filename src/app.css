@@ -1,24 +1,27 @@
 .App {
-  font-family: monospace;
-  /* background-color: seashell; */
   background-color: white;
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .App-header {
-  height: 50px;
+  height: 60px;
   width: 100%;
   background-color: inherit;
+  padding: 0 10px;
+
+  font-family: "Courier New", Courier, monospace;
 
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 
-  position: fixed;
+  /* position: fixed; */
 }
 
 .App-body {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   min-height: 100vh;
 }
 

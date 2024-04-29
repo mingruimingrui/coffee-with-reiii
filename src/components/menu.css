@@ -1,7 +1,50 @@
 .Menu {
-  padding: 50px 2vw;
+  padding: 20px 2vw;
+  height: 100vh;
+  text-align: center;
 }
 
 .MenuCard {
-  margin-bottom: 50px;
+  margin: 10px;
+  margin-bottom: 40px;
+  aspect-ratio: 1 / 1.2;
+}
+
+.MenuCard .card-title {
+  font-family: sans-serif;
+}
+
+.MenuCardFront .card-img {
+  width: 100%;
+  aspect-ratio: 1 / 0.9;
+}
+
+.MenuCardFront .card-img-overlay {
+  width: 100%;
+  aspect-ratio: 1 / 0.9;
+
+  position: absolute;
+
+  align-content: center;
+
+  color: white;
+  text-shadow:
+    -1px -1px 0px #000,
+    1px -1px 0px #000,
+    -1px 1px 0px #000,
+    1px 1px 0px #000;
+}
+
+.MenuCardFront .card-body {
+  width: 100%;
+  aspect-ratio: 1 / 0.3;
+}
+
+.MenuCardFront .card-body .card-text {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.MenuCardBack {
+  text-align: left;
 }

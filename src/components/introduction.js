@@ -1,11 +1,17 @@
 import { Component } from "react";
 
 import "./introduction.css";
+import background from "../imgs/cherries.jpg";
 
 export class Introduction extends Component {
   render() {
     return (
-      <div className="Introduction">
+      <div
+        className="Introduction"
+        style={{
+          backgroundImage: `url(${background})`,
+        }}
+      >
         <div class="text-box-for-img">
           <h2>What is 3rd wave coffee?</h2>
 
