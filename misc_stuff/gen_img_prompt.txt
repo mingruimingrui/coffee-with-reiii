@@ -1,0 +1,16 @@
+Images are generated using Gemini Advanced with the following prompt on various days.
+
+```txt
+Hi Gemini, I'm a homebrewer organizing a popup coffee store.
+I would like help to design some coffee tasting cards to go with some of the coffee I'm serving.
+
+Please help me generate a background image for the tasting card for this set of notes
+- {{note#1}}
+- {{note#2}}
+- ...
+
+You can be creative, use an abstract style as if paint is getting mixed.
+```
+
+Sometimes additional prompts will be provided to tune the color scheme.
+
