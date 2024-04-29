@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/coffee-with-reiii/static/css/main.b52877af.css",
-    "main.js": "/coffee-with-reiii/static/js/main.6037772a.js",
+    "main.css": "/coffee-with-reiii/static/css/main.f979e75e.css",
+    "main.js": "/coffee-with-reiii/static/js/main.fbdd7a40.js",
     "static/js/453.0711e380.chunk.js": "/coffee-with-reiii/static/js/453.0711e380.chunk.js",
+    "static/media/finca_betel_pink_bourbon.jpg": "/coffee-with-reiii/static/media/finca_betel_pink_bourbon.0009157109715fba2162.jpg",
+    "static/media/honey_apricot.jpg": "/coffee-with-reiii/static/media/honey_apricot.bf9efbc37b0e0bc25dee.jpg",
+    "static/media/el_diviso_sidra.jpg": "/coffee-with-reiii/static/media/el_diviso_sidra.cf1edaf89261d5106390.jpg",
+    "static/media/ethiopian_gedech.jpg": "/coffee-with-reiii/static/media/ethiopian_gedech.78031aaf0b24342d9c9f.jpg",
+    "static/media/yeast_chiroso.jpg": "/coffee-with-reiii/static/media/yeast_chiroso.6aaac55ac6ec133248d8.jpg",
+    "static/media/cherries.jpg": "/coffee-with-reiii/static/media/cherries.3d1fb3d10186d9160d1d.jpg",
     "index.html": "/coffee-with-reiii/index.html",
-    "main.b52877af.css.map": "/coffee-with-reiii/static/css/main.b52877af.css.map",
-    "main.6037772a.js.map": "/coffee-with-reiii/static/js/main.6037772a.js.map",
+    "main.f979e75e.css.map": "/coffee-with-reiii/static/css/main.f979e75e.css.map",
+    "main.fbdd7a40.js.map": "/coffee-with-reiii/static/js/main.fbdd7a40.js.map",
     "453.0711e380.chunk.js.map": "/coffee-with-reiii/static/js/453.0711e380.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b52877af.css",
-    "static/js/main.6037772a.js"
+    "static/css/main.f979e75e.css",
+    "static/js/main.fbdd7a40.js"
   ]
 }
