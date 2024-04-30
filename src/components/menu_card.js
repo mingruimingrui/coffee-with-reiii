@@ -55,16 +55,17 @@ export class MenuCard extends Component {
             Roaster: {info.roaster}
             <br />
             Roast Level: {info.roastLevel}
+            <hr />
+            Notes: {info.tastingNotes.join(", ")}
           </Card.Text>
-          <hr />
         </Card.Body>
       </Card>
     );
 
     return (
       <ReactCardFlip isFlipped={this.state.isFlipped}>
-        {frontCard}
         {backCard}
+        {frontCard}
       </ReactCardFlip>
     );
   }

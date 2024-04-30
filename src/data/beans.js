@@ -4,20 +4,17 @@ import elDivisoSidra from "../imgs/el_diviso_sidra.jpg";
 import honeyApricot from "../imgs/honey_apricot.jpg";
 import yeastChiroso from "../imgs/yeast_chiroso.jpg";
 
-const DEFAULT_VAL =
-  "This is missing but I don't want to throw error, so I use a default value instead.";
-
 export class BeanInfo {
   constructor({
-    imgSrc = "holder.js",
-    title = DEFAULT_VAL,
-    origin = DEFAULT_VAL,
-    varietal = DEFAULT_VAL,
-    processing = DEFAULT_VAL,
-    roaster = DEFAULT_VAL,
-    roastLevel = DEFAULT_VAL,
-    tastingNotes = undefined,
-    shortDescription = undefined,
+    imgSrc,
+    title,
+    origin,
+    varietal,
+    processing,
+    roaster,
+    roastLevel,
+    tastingNotes,
+    shortDescription,
   }) {
     if (tastingNotes === undefined) {
       tastingNotes = [];
@@ -36,17 +33,6 @@ export class BeanInfo {
 }
 
 export const BEAN_INFOS = [
-  new BeanInfo({
-    imgSrc: ethiopianGedech,
-    title: "Asegedech Sholi - Red Grape",
-    origin: "Ethiopia, Gedeb, Banko Tatatu",
-    varietal: "74110, 74112",
-    processing: "Natural",
-    roaster: "Apartment",
-    roastLevel: "Light",
-    tastingNotes: ["Red Grape", "Nectarine", "Rose"],
-    shortDescription: "Gentle and clean like sipping on red tea",
-  }),
   new BeanInfo({
     imgSrc: fincaBetelPinkBourbon,
     title: "Finca Betel - Cherry Roselle",
@@ -71,6 +57,17 @@ export const BEAN_INFOS = [
     shortDescription: "Mellow sweetness like an elegant dance",
   }),
   new BeanInfo({
+    imgSrc: ethiopianGedech,
+    title: "Asegedech Sholi - Red Grape",
+    origin: "Ethiopia, Gedeb, Banko Tatatu",
+    varietal: "74110, 74112",
+    processing: "Natural",
+    roaster: "Apartment",
+    roastLevel: "Light",
+    tastingNotes: ["Red Grape", "Nectarine", "Rose"],
+    shortDescription: "Gentle and clean like sipping on red tea",
+  }),
+  new BeanInfo({
     imgSrc: honeyApricot,
     title: "La Zulia - Honey Apricot Heart",
     origin: "Colombia, Quindio, La Zulia",
@@ -84,13 +81,13 @@ export const BEAN_INFOS = [
   }),
   new BeanInfo({
     imgSrc: yeastChiroso,
-    title: "Las Flores - Chiroso Yeast Anaerobic",
+    title: "Las Flores - Mango White Peach",
     origin: "Colombia, Huilia, Las Flores",
     varietal: "Caturra Chiroso",
     processing: "Thermal Shock, Yeast Anaerobic Natural",
     roaster: "Kennta Roast",
     roastLevel: "Medium",
-    tastingNotes: ["White Peach", "Mango", "Candy-Sweetness"],
+    tastingNotes: ["Mango", "White Peach", "Candy-Sweetness"],
     shortDescription: "Sweet funky and juicy, perfect for the adventurous",
   }),
 ];

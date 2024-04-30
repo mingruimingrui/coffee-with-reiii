@@ -41,32 +41,7 @@ export class Menu extends Component {
     });
   }
 
-  renderBasic() {
-    let cards = BEAN_INFOS.map((info) => (
-      <div className="MenuCard">
-        <h3>{info.title}</h3>
-        <hr />
-        <p>
-          <span className="">Tasting Notes:</span>{" "}
-          <span className="font-bold">{info.tastingNotes}</span>
-        </p>
-        <p>
-          Origin: {info.origin} | Varietal: {info.varietal} | Processing:{" "}
-          {info.processing}
-        </p>
-        <p>
-          Roaster: {info.roaster} | Roast Level: {info.roastLevel}
-        </p>
-      </div>
-    ));
-
-    return <div className="Menu">{cards}</div>;
-  }
-
-  renderSwiper() {
-    // const numRows = this.state.isDesktop ? Math.ceil(BEAN_INFOS.length / this.state.slidesPerView) : 1;
-    // const numRows = 1;
-
+  render() {
     let cards = BEAN_INFOS.map((info, idx) => {
       return (
         <SwiperSlide key={info.title}>
@@ -97,10 +72,5 @@ export class Menu extends Component {
         </Swiper>
       </div>
     );
-  }
-
-  render() {
-    // return this.renderBasic();
-    return this.renderSwiper();
   }
 }
