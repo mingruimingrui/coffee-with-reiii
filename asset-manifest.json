@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coffee-with-reiii/static/css/main.f979e75e.css",
-    "main.js": "/coffee-with-reiii/static/js/main.5577df75.js",
+    "main.js": "/coffee-with-reiii/static/js/main.7bf7e552.js",
     "static/js/453.0711e380.chunk.js": "/coffee-with-reiii/static/js/453.0711e380.chunk.js",
     "static/media/finca_betel_pink_bourbon.jpg": "/coffee-with-reiii/static/media/finca_betel_pink_bourbon.0009157109715fba2162.jpg",
     "static/media/honey_apricot.jpg": "/coffee-with-reiii/static/media/honey_apricot.bf9efbc37b0e0bc25dee.jpg",
@@ -11,11 +11,11 @@
     "static/media/cherries.jpg": "/coffee-with-reiii/static/media/cherries.3d1fb3d10186d9160d1d.jpg",
     "index.html": "/coffee-with-reiii/index.html",
     "main.f979e75e.css.map": "/coffee-with-reiii/static/css/main.f979e75e.css.map",
-    "main.5577df75.js.map": "/coffee-with-reiii/static/js/main.5577df75.js.map",
+    "main.7bf7e552.js.map": "/coffee-with-reiii/static/js/main.7bf7e552.js.map",
     "453.0711e380.chunk.js.map": "/coffee-with-reiii/static/js/453.0711e380.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f979e75e.css",
-    "static/js/main.5577df75.js"
+    "static/js/main.7bf7e552.js"
   ]
 }
