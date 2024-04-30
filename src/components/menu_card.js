@@ -64,8 +64,8 @@ export class MenuCard extends Component {
 
     return (
       <ReactCardFlip isFlipped={this.state.isFlipped}>
-        {backCard}
         {frontCard}
+        {backCard}
       </ReactCardFlip>
     );
   }
