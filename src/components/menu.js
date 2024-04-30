@@ -10,7 +10,11 @@ import "swiper/css/pagination";
 import "./menu.css";
 import { MenuCard } from "./menu_card";
 
-const MIN_CARD_WIDTH = 350;
+const MIN_CARD_WIDTH = 330;
+const SWIPER_STYLES = {
+  "--swiper-pagination-color": "#777777",
+  "--swiper-pagination-bullet-inactive-color": "#999999",
+};
 
 export class Menu extends Component {
   constructor(props) {
@@ -67,6 +71,8 @@ export class Menu extends Component {
           grid={{ fill: "row", rows: nRows }}
           keyboard={{ enabled: true }}
           onResize={() => this.handleResize()}
+          centerInsufficientSlides={true}
+          style={SWIPER_STYLES}
         >
           {cards}
         </Swiper>
